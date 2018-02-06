@@ -30,3 +30,47 @@
   border: none !important;
   background-color: transparent;
 }
+
+.paper{
+  min-height: "500px" !important
+}
+.button{
+  background-color: #222 !important
+}
+.list{
+  list-style-type: none;
+  font-size: inherit;
+  border-bottom: 2px #ff8a65 solid;
+  float: left;
+  width: 60%;
+  height: 100%;
+  margin-bottom: 5px;
+  padding: 10px
+
+}
+.btn{
+  background-color: #ff8a65;
+  border: #ff8a65 2px solid;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  color: #fff;
+  margin-top: 20px
+
+}
+.paper{
+  
+    animation-duration: 0.5s;
+    animation-name: slidein;
+  
+}
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 10%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 350;
+  }
+}
